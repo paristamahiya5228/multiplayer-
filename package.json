@@ -1,0 +1,26 @@
+{
+  "name": "multiplayer-lib",
+  "version": "1.0.0",
+  "description": "Zero-dependency client library and realtime server that makes any web page multiplayer",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node tests/sync.test.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "multiplayer",
+    "realtime",
+    "websocket",
+    "presence",
+    "cursors",
+    "state-sync"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}
